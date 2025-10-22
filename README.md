@@ -9,7 +9,7 @@
 
 **Intelligent Credit Limit Management using Q-Learning & Multi-Agent Systems**
 
-*Developed by Dorsaf ZIADI & Manar MIGHRI | ENIT 3Tel1*
+
 
 [Overview](#overview) • [Features](#key-features) • [Versions](#project-versions) • [Results](#results) • [Installation](#installation)
 
@@ -728,27 +728,11 @@ def map_to_state(customer):
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-## 🙏 Acknowledgments
-
-- **ENIT** for academic support and resources
-- **Home Credit** for providing the dataset
-- **OpenAI Gymnasium** for RL framework
-- **Kaggle** for hosting the competition
-- Course instructors for guidance on RL algorithm design
 
 ---
 
-## 📞 Contact
 
-**Questions? Issues? Suggestions?**
-
-- 📧 Email: dorsaf.ziadi@enit.utm.tn, manar.mighri@enit.utm.tn
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/credit-line-adjuster/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/credit-line-adjuster/discussions)
-
----
 
 <div align="center">
 
@@ -756,6 +740,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **🔀 Fork it to build your own RL credit system!**
 
-Made with ❤️ and ☕ by Dorsaf & Manar
+Made with ❤️ and ☕ by Manar
 
 </div>
