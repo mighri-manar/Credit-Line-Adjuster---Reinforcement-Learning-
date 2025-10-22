@@ -617,10 +617,13 @@ This validates the robustness of Q-Learning across paradigms!
 ![Q-Table Heatmap](images/q_table_heatmap.png)
 
 ### Hybrid Training Comparison
-![Hybrid Comparison](images/hybrid_comparison.png)
+![Hybrid Comparison](images/hybrid_training_comparison.png)
+
+### Off-line Training Progress
+![Offine Training Progress](images/real_data_training_progress.png)
 
 ### Multi-Agent Coordination
-![Multi-Agent](images/multi_agent_coordination.png)
+![Multi-Agent](images/multi_agent_adaptive_training_progress.png)
 
 ---
 
