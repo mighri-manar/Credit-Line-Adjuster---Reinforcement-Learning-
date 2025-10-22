@@ -711,16 +711,6 @@ def map_to_state(customer):
 ### Dataset
 6. Home Credit Default Risk. Kaggle Competition. [Link](https://www.kaggle.com/c/home-credit-default-risk)
 
----
-
-## 👥 Contributors
-
-**Dorsaf ZIADI** - [GitHub](https://github.com/dorsaf-ziadi) | [LinkedIn](https://linkedin.com/in/dorsaf-ziadi)
-
-**Manar MIGHRI** - [GitHub](https://github.com/manar-mighri) | [LinkedIn](https://linkedin.com/in/manar-mighri)
-
-*École Nationale d'Ingénieurs de Tunis (ENIT)*  
-*3rd Year Telecommunications Engineering*
 
 ---
 
