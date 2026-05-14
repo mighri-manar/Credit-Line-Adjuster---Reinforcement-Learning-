@@ -87,11 +87,11 @@ We developed **four distinct implementations** to explore different RL training 
 ```
 
 **Characteristics:**
-- ✅ Agent learns by interacting with simulated environment
-- ✅ No historical data required
-- ✅ Fast training (~2-5 minutes for 1000 episodes)
-- ✅ Perfect for testing and algorithm validation
-- ✅ Full exploration of state-action space
+-  Agent learns by interacting with simulated environment
+-  No historical data required
+-  Fast training (~2-5 minutes for 1000 episodes)
+-  Perfect for testing and algorithm validation
+-  Full exploration of state-action space
 
 **Use Case:** Algorithm development, rapid prototyping, theoretical validation
 
@@ -258,7 +258,7 @@ Q(s,a) ← Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 ### Learned Optimal Policy
 
@@ -363,7 +363,7 @@ tqdm>=4.62.0  # For progress bars
 
 ---
 
-## 🚦 Quick Start Guide
+##  Quick Start Guide
 
 ### Version 1: Simulation-Based
 
