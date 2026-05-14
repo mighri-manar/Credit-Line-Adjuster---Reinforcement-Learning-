@@ -17,7 +17,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Key Features](#key-features)
@@ -36,46 +36,46 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project implements **intelligent credit limit adjustment systems** using Reinforcement Learning to optimize banking decisions. We explore multiple RL paradigms to learn optimal credit policies that balance **risk mitigation** with **revenue maximization**.
 
 ### Problem Statement
 
 Traditional credit limit adjustments are:
-- ❌ Manual and time-consuming
-- ❌ Subjective and inconsistent
-- ❌ Unable to leverage historical patterns
-- ❌ Reactive rather than proactive
+-  Manual and time-consuming
+-  Subjective and inconsistent
+-  Unable to leverage historical patterns
+-  Reactive rather than proactive
 
 ### Our Solution
 
-✅ **Automated decision-making** using Q-Learning  
-✅ **Multiple training paradigms** (simulation, hybrid, offline)  
-✅ **Real data validation** (300K+ customers)  
-✅ **Multi-agent specialization** for complex scenarios  
-✅ **Interpretable policies** for regulatory compliance  
+ **Automated decision-making** using Q-Learning  
+ **Multiple training paradigms** (simulation, hybrid, offline)  
+ **Real data validation** (300K+ customers)  
+ **Multi-agent specialization** for complex scenarios  
+ **Interpretable policies** for regulatory compliance  
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 ### Core Capabilities
-- 🤖 **Q-Learning Implementation** - Temporal-Difference learning with ε-greedy exploration
-- 🏦 **Real Banking Data** - Trained on Home Credit Default Risk dataset (307K customers)
-- 🔄 **Multiple Training Paradigms** - Simulation, Hybrid, Offline, Multi-Agent
-- 📊 **Comprehensive Analysis** - Training curves, Q-table heatmaps, policy comparison
-- 🎯 **Optimal Policies** - Learned strategies matching theoretical expectations
+-  **Q-Learning Implementation** - Temporal-Difference learning with ε-greedy exploration
+-  **Real Banking Data** - Trained on Home Credit Default Risk dataset (307K customers)
+-  **Multiple Training Paradigms** - Simulation, Hybrid, Offline, Multi-Agent
+-  **Comprehensive Analysis** - Training curves, Q-table heatmaps, policy comparison
+-  **Optimal Policies** - Learned strategies matching theoretical expectations
 
 ### Advanced Features
-- 👥 **Multi-Agent System** - Specialized agents for different risk profiles
-- 🔄 **Hybrid Training** - Combines offline pre-training with online fine-tuning
-- 📈 **Performance Monitoring** - Real-time training metrics and convergence detection
-- 💾 **Model Persistence** - Save/load trained agents for deployment
+-  **Multi-Agent System** - Specialized agents for different risk profiles
+-  **Hybrid Training** - Combines offline pre-training with online fine-tuning
+-  **Performance Monitoring** - Real-time training metrics and convergence detection
+-  **Model Persistence** - Save/load trained agents for deployment
 
 ---
 
-## 🚀 Project Versions
+##  Project Versions
 
 We developed **four distinct implementations** to explore different RL training paradigms:
 
@@ -83,7 +83,7 @@ We developed **four distinct implementations** to explore different RL training 
 **Pure reinforcement learning through environment simulation**
 
 ```bash
-📁 credit_line_adjuster/
+ credit_line_adjuster/
 ```
 
 **Characteristics:**
@@ -107,15 +107,15 @@ We developed **four distinct implementations** to explore different RL training 
 **Best of both worlds - learn from history, adapt to present**
 
 ```bash
-📁 credit_line_adjuster_hybrid/
+ credit_line_adjuster_hybrid/
 ```
 
 **Characteristics:**
-- ✅ Phase 1: Pre-train on synthetic historical data (1000 customers)
-- ✅ Phase 2: Fine-tune with online simulation
-- ✅ Combines safety of offline with adaptability of online
-- ✅ More realistic business scenario
-- ✅ Generates comparison visualizations
+-  Phase 1: Pre-train on synthetic historical data (1000 customers)
+-  Phase 2: Fine-tune with online simulation
+-  Combines safety of offline with adaptability of online
+-  More realistic business scenario
+-  Generates comparison visualizations
 
 **Use Case:** Production deployment, continuous learning systems
 
@@ -136,15 +136,15 @@ We developed **four distinct implementations** to explore different RL training 
 **Learning from 300K+ real banking customers**
 
 ```bash
-📁 credit_line_adjuster_v2/
+ credit_line_adjuster_v2/
 ```
 
 **Characteristics:**
-- ✅ Trained on **Home Credit Default Risk** dataset
-- ✅ 307,511 real customer profiles
-- ✅ 122 features mapped to 4 MDP states
-- ✅ Reward calibrated on actual default outcomes
-- ✅ Validated on 48K unseen customers
+-  Trained on **Home Credit Default Risk** dataset
+-  307,511 real customer profiles
+-  122 features mapped to 4 MDP states
+-  Reward calibrated on actual default outcomes
+-  Validated on 48K unseen customers
 
 **Use Case:** Real-world deployment, banking applications, regulatory compliance
 
@@ -180,18 +180,18 @@ Validation on Test Set
 **Specialized agents collaborating for optimal decisions**
 
 ```bash
-📁 credit_line_adjuster_multi_agent/
+ credit_line_adjuster_multi_agent/
 ```
 
 **Characteristics:**
-- ✅ **4 Specialized Agents:**
+-  **4 Specialized Agents:**
   - Agent 0: High Risk Specialist (conservative)
   - Agent 1: Moderate Risk Specialist (balanced)
   - Agent 2: Low Risk Specialist (growth-focused)
   - Agent 3: Default Handler (damage control)
-- ✅ Coordination mechanism with consensus voting
-- ✅ Observational learning (30% rate)
-- ✅ Adaptive weighting based on performance
+-  Coordination mechanism with consensus voting
+-  Observational learning (30% rate)
+-  Adaptive weighting based on performance
 
 **Use Case:** Complex decision-making, specialized portfolios, advanced RL research
 
@@ -213,7 +213,7 @@ Validation on Test Set
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### MDP Formulation
 
@@ -290,7 +290,7 @@ All versions converged to the same optimal policy:
 
 ---
 
-## 💻 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -391,8 +391,8 @@ python compare_policies.py
 
 **Expected Output:**
 ```
-✅ Training Complete!
-📊 Learned Policy:
+ Training Complete!
+ Learned Policy:
 S1 (High Risk)    → Decrease
 S2 (Moderate)     → Increase
 S3 (Low Risk)     → Increase
@@ -423,13 +423,13 @@ python train_hybrid.py
 
 **Expected Output:**
 ```
-🔵 PHASE 1: OFFLINE PRE-TRAINING
+ PHASE 1: OFFLINE PRE-TRAINING
    Training on 10,000+ transitions...
-   ✅ Offline training complete!
+    Offline training complete!
 
-🟢 PHASE 2: ONLINE FINE-TUNING
+ PHASE 2: ONLINE FINE-TUNING
    Fine-tuning for 1000 episodes...
-   ✅ Hybrid agent ready!
+    Hybrid agent ready!
 
 Final Performance:
    Hybrid: 95.39 avg reward
@@ -457,18 +457,18 @@ python offline_train.py
 
 **Expected Output:**
 ```
-📂 Loading Home Credit dataset...
+ Loading Home Credit dataset...
    Training: 307,511 customers
    Test: 48,744 customers
 
-⚙️  Training Q-Learning agent...
+  Training Q-Learning agent...
    Episode 10,000/10,000 ✓
 
-✅ Training Complete!
+ Training Complete!
    Training reward: 4.81
    Test reward: 6.88 (+43%)
    
-📊 Optimal Policy:
+ Optimal Policy:
    S1 → Decrease (96.3%)
    S2 → Increase (84.0%)
    S3 → Increase (67.1%)
@@ -495,21 +495,21 @@ python -c "from offline_multi_agent_train import compare_single_vs_multi_agent; 
 
 **Expected Output:**
 ```
-🤖 Training Multi-Agent System...
+ Training Multi-Agent System...
 
 Agent 0 (High Risk):    7.53 reward (3,121 episodes)
 Agent 1 (Moderate):     3.88 reward (3,515 episodes)
 Agent 2 (Low Risk):     8.49 reward (2,589 episodes)
 Agent 3 (Default):    -16.10 reward (775 episodes)
 
-✅ Multi-Agent System Ready!
+ Multi-Agent System Ready!
    Coordination: Active
    Observational Learning: 30%
 ```
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ### Simulation-Based Version
 ```
@@ -575,7 +575,7 @@ credit_line_adjuster_multi_agent/
 
 ---
 
-## 📈 Performance Comparison
+##  Performance Comparison
 
 ### Convergence Speed
 
@@ -600,15 +600,15 @@ credit_line_adjuster_multi_agent/
 ### Policy Consistency
 
 All versions learned the **same optimal policy**:
-- ✅ S1 (High Risk) → Decrease
-- ✅ S2 (Moderate) → Increase
-- ✅ S3 (Low Risk) → Increase
+-  S1 (High Risk) → Decrease
+-  S2 (Moderate) → Increase
+-  S3 (Low Risk) → Increase
 
 This validates the robustness of Q-Learning across paradigms!
 
 ---
 
-## 🎨 Visualizations
+##  Visualizations
 
 ### Training Progress
 ![Training Progress](images/training_progress.png)
@@ -627,16 +627,16 @@ This validates the robustness of Q-Learning across paradigms!
 
 ---
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Algorithm: Q-Learning (Off-Policy TD Control)
 
 **Advantages:**
-- ✅ Model-free (no transition model needed)
-- ✅ Off-policy (learns optimal while exploring)
-- ✅ Proven convergence guarantees
-- ✅ Simple and interpretable
-- ✅ Works with tabular state space
+-  Model-free (no transition model needed)
+-  Off-policy (learns optimal while exploring)
+-  Proven convergence guarantees
+-  Simple and interpretable
+-  Works with tabular state space
 
 **Why Q-Learning for Credit?**
 1. **Interpretability:** Banks need explainable decisions
@@ -673,7 +673,7 @@ def map_to_state(customer):
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 ### Technical Enhancements
 - [ ] **Deep Q-Network (DQN):** Neural network for continuous features
@@ -731,7 +731,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repo if you found it helpful!**
 
-**🔀 Fork it to build your own RL credit system!**
+** Fork it to build your own RL credit system!**
 
 Made with ❤️ and ☕ by Manar
 
